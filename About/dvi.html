@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Smart_Calc_v1.0</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-color: lavender;">
+    <div style="max-width: 600px; margin: 1rem auto; border-style: dotted; border-color: darkorchid; padding: 2rem">
+        <h1 style="text-align: center">Smart Calc v2.0</h1>
+
+        <h2 style="text-align: center">О приложении</h2>
+        <p>Приложение разработано на языке C++ стандарта C++17 с использованием паттерна MVC (model, view, controller).
+            Графический интерфейс реализован с помощью библиотеки QT.</p>
+            <ul>Реализованный функционал:
+                <li>Ввод целых и вещественных чисел, экспоненциальная форма записи числа;</li>
+                <li>Вычисление произвольных скобочных арифметических выражений в инфиксной нотации;</li>
+                <li>Вычисление произвольных скобочных арифметических выражений в инфиксной нотации с подстановкой значения переменной Х в виде числа;</li>
+                <li>Построение графика функции, заданной с помощью выражения в инфиксной нотации с переменной Х  (с координатными осями, отметкой используемого масштаба и сеткой с адаптивным шагом);</li>
+                <li>Ввод с клавиатуры;</li>
+                <li>Возможность ввода до 255 символов.</li>
+            </ul>
+            </p>
+
+        <div style="display: flex; justify-content: center;">
+            <div style="padding-right:50px;">
+                <h3>Операторы</h3>
+                <ul style="list-style-type: disc ; padding: 0;">
+                    <li>Скобки ()</li>
+                    <li>Сложение +</li>
+                    <li>Вычитание -</li>
+                    <li>Умножение *</li>
+                    <li>Деление /</li>
+                    <li>Возведение в степень ^</li>
+                    <li>Остаток от деления %</li>
+                    <li>Унарный плюс +a</li>
+                    <li>Унарный минус -a</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Функции</h3>
+                <ul style="list-style-type: disc; padding: 0;">
+                    <li>cos</li>
+                    <li>sin</li>
+                    <li>tan</li>
+                    <li>acos</li>
+                    <li>asin</li>
+                    <li>atan</li>
+                    <li>sqrt</li>
+                    <li>ln</li>
+                    <li>log</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2 style="text-align: center">Доступные команды Make:</h2>
+            <h4>Установка</h4>
+            <p>make install</p>
+
+            <h4>Удаление</h4>
+            <p>make uninstall</p>
+            <h4>Unit-тесты</h4>
+            <p>make test</p>
+
+            <h4>GCOV-report о покрытии тестами</h4>
+            <p>make gcov_report</p>
+
+            <h4>Valgrind - проверка на утечки памяти</h4>
+            <p>make valgrind</p>
+
+            <h4>Проверка стиля кода</h4>
+            <p>make style</p>
+        </div>
+
+        <h6 style="text-align: center">Создано Arnell Majin в Школе 21 в 2024 году</h6>
+    </div>
+
+</body>
+</html>
